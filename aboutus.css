@@ -1,0 +1,51 @@
+:root {
+  --main-color: rgb(42, 182, 128);
+  --border-color: rgb(199, 196, 196);
+}
+.about-us-head {
+  font-size: 23px;
+  position: relative;
+  text-align: center;
+  background-color: var(--main-color);
+  color: whitesmoke;
+  width: 80%;
+  height: 80px;
+  padding-top: 2px;
+  padding: 2px 0 0 0;
+  margin-bottom: 1rem;
+  outline: 3px solid whitesmoke;
+  outline-offset: -8px;
+  border-radius: 10px;
+  -moz-outline-radius: 10px;
+  margin-right: 10%;
+  margin-left: 10%;
+  z-index: 11;
+  word-spacing: 1vw;
+  letter-spacing: 1px;
+}
+
+.left-main {
+  position: relative;
+  left: 12vw;
+  width: 70vw;
+}
+
+.right-main {
+  position: relative;
+  width: 100vw;
+}
+
+#heading-par {
+  color: var(--main-color);
+}
+
+.about-us-par {
+  text-align: justify;
+}
+
+.mission,
+.vision {
+  position: relative;
+  left: 12vw;
+  width: 70vw;
+}
